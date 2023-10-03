@@ -43,7 +43,7 @@ const orders = [
         total: 240,
         delivered: true,
     },
-];
+]; 
 const rta3 = orders.filter(item => item.delivered && item.total >= 100)
 console.log('rta3',rta3);
 
